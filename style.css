@@ -1,0 +1,38 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000; /* Black background for the whole page */
+    text-align: center;
+    color: #fff; /* White text color */
+    margin: 0;
+    overflow: hidden; /* Prevent horizontal scroll bars */
+  }
+  div {
+    margin: auto;
+    margin-top: 50px;
+  }
+  
+  .profile {
+    background-color: #111; /* Slightly lighter black for the card */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    position: relative; /* To position elements */
+  }
+  
+  img {
+    max-width: 200px;
+    border-radius: 50%;
+    border: 8px solid #111; /* Slightly lighter black circle around the picture */
+    margin: 20px 0;
+  }
+  
+  a {
+    color: #fff; /* White link text color */
+    text-decoration: none;
+    font-weight: bold; /* Bolder link text */
+  }
+  
+  a:hover {
+    color: #ccc; /* Light gray on hover for links */
+  }
